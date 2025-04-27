@@ -151,7 +151,7 @@ const ThemeToggle = styled(motion.button)`
   align-items: center;
   justify-content: center;
   color: ${props => props.theme === 'dark' ? '#64FFDA' : '#0A0A0A'};
-  font-size: 1.2rem;
+  font-size: 2px;
   z-index: 1001;
   transition: all 0.3s ease;
   box-shadow: 0 10px 30px ${props => props.theme === 'dark'
@@ -193,7 +193,7 @@ const ScrollToTop = styled(motion.button)`
   align-items: center;
   justify-content: center;
   color: ${props => props.theme === 'dark' ? '#64FFDA' : '#0A0A0A'};
-  font-size: 1.2rem;
+  font-size: 15px;
   z-index: 1000;
   transition: all 0.3s ease;
   box-shadow: 0 10px 30px ${props => props.theme === 'dark'

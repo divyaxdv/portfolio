@@ -57,8 +57,9 @@ const Name = styled(motion.h1)`
   font-family: 'Syncopate', sans-serif;
   font-size: clamp(4rem, 8vw, 7rem);
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
   letter-spacing: -3px;
+  margin-left: 1.5rem;
   color: transparent;
   -webkit-text-stroke: ${props => props.theme === 'dark' ? '1px #FFFFFF' : '1px #0A0A0A'};
   position: relative;

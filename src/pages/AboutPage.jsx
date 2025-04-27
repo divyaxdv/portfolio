@@ -230,8 +230,8 @@ const AboutPage = () => {
         </SectionTitle>
 
         <SkillsGrid>
-          {['JavaScript', 'Typescript', 'Sql', 'Python', 'go', 'java' ,'Linux', 'React.js', 'Node.js', 'Express', 'Redux', 'MongoDB', 'Firebase', 'SCSS', 'JavaScript',
-'JQuery', 'Next.js', 'Bootstrap', 'Reactstrap', 'Material-UI', 'jest', 'react-testing-library', 'vim', 'Git'].map((skill, index) => (
+          {['JavaScript' ,'Typescript', 'Sql', 'Python', 'go', 'java' ,'Linux', 'React.js', 'Node.js', 'MongoDB', 'Firebase', 
+ 'jest'].map((skill, index) => (
             <SkillCard
               key={skill}
               theme={theme}

@@ -79,3 +79,6 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.moon-icon, .sun-icon {
+  font-size: 30px; /* or 40px, whatever you like */
+}
