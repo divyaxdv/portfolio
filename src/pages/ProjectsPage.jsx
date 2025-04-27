@@ -101,7 +101,7 @@ const ProjectImage = styled.div`
       ? 'linear-gradient(210deg, rgba(100, 255, 218, 0.1), transparent 50%)'
       : 'linear-gradient(210deg, rgba(10, 10, 10, 0.05), transparent 50%)'};
     z-index: 2;
-  }
+  }*/
 
   ${ProjectCard}:hover & img {
     transform: scale(1.1);
@@ -188,28 +188,28 @@ const ProjectsPage = () => {
   
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform built with React, Node.js, and MongoDB. Features include product management, shopping cart, user authentication, and payment processing.',
-      image: '/project1.jpg',
-      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
-      github: 'https://github.com/yourusername/ecommerce',
-      live: 'https://ecommerce-demo.com'
+      title: 'Docs',
+      description: 'Developed an online document creator (something like google docs) using React-Quill library that can add text, image, list, code snippet etc.',
+      image: 'image/Screenshot 2025-04-27 232721.png',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io', 'Typecript'],
+      github: 'https://github.com/ayush-AI/docs-client',
+      live: 'https://docs-client.vercel.app/document/15cbbada-0cf9-462e-9bf3-8f35242a242a'
     },
     {
-      title: 'Task Management App',
-      description: 'A modern task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: '/project2.jpg',
-      tech: ['React', 'Firebase', 'Redux', 'Material-UI'],
-      github: 'https://github.com/yourusername/task-manager',
-      live: 'https://task-manager-demo.com'
+      title: 'GDG Cloud Kolkata Webite',
+      description: 'Build website for Google Developer Group Cloud Kolkata Community one of the biggest community in the eastern India.',
+      //image: '/project2.jpg',
+      tech: ['React.js', 'typescript', 'Material-UI'],
+      github: 'https://github.com/gdgcloudkol/gdgcloudkol.github.io',
+      live: 'https://gdgcloud.kolkata.dev/'
     },
     {
-      title: 'Portfolio Website',
-      description: 'A responsive portfolio website showcasing my work and skills. Built with modern web technologies and featuring smooth animations.',
-      image: '/project3.jpg',
-      tech: ['React', 'Styled Components', 'Framer Motion'],
-      github: 'https://github.com/yourusername/portfolio',
-      live: 'https://your-portfolio.com'
+      title: 'Winter of Code`21',
+      description: 'Created an website for an open source event named Winter of Code which creates awareness about open source opportunities like GSOC.',
+      image: 'image/Screenshot 2025-04-27 233525.png',
+      tech: ['React', 'Github Pages', 'Cloudflare', 'Material-UI'],
+      github: 'https://github.com/winterofcode/2021',
+      live: 'https://winterofcode.com/2021/'
     }
   ];
 
