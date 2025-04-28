@@ -326,7 +326,7 @@ const ContactPage = () => {
           </ContactIcon>
           <ContactText theme={theme}>
             <h3>Email</h3>
-            <p>ayushmishra2854@gmail.com</p>
+            <p>divyaxdv@gmail.com</p>
           </ContactText>
         </ContactCard>
 
@@ -341,7 +341,7 @@ const ContactPage = () => {
           </ContactIcon>
           <ContactText theme={theme}>
             <h3>Phone</h3>
-            <p>+91 9123155486</p>
+            <p>+91 7061038960</p>
           </ContactText>
         </ContactCard>
 

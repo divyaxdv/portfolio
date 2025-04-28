@@ -231,7 +231,7 @@ const AboutPage = () => {
 
         <SkillsGrid>
           {['JavaScript' ,'Typescript', 'Sql', 'Python', 'go', 'java' ,'Linux', 'React.js', 'Node.js', 'MongoDB', 'Firebase', 
- 'jest'].map((skill, index) => (
+ 'C++'].map((skill, index) => (
             <SkillCard
               key={skill}
               theme={theme}
@@ -264,10 +264,12 @@ const AboutPage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1 }}
         >
-          <ExperienceTitle theme={theme}>SDE1  Swiggy</ExperienceTitle>
-          <ExperienceDate theme={theme}>2024 - Present</ExperienceDate>
+          <ExperienceTitle theme={theme}>Smart India Hackathon`23</ExperienceTitle>
+          <ExperienceDate theme={theme}>2023</ExperienceDate>
           <ExperienceDescription theme={theme}>
-          Proactively identified and deprecated an underutilized service, leading to an annual cost savings of $1460. Additionally, implemented an SQS producer and established SLT configurations in a newly developed Go service. To further enhance developer efficiency, updated project documentation, including the README and setup/access processes, ensuring smoother onboarding and better maintainability.
+          Selected in the final round of the Smart India Hackathon (SIH), showcasing my
+exceptional problem-solving abilities, technical proficiency, and teamwork. Build a ML based model with my team that
+precisely analyzes sentiments of incoming calls on helpdesk via text and speech both mediums
           </ExperienceDescription>
         </ExperienceCard>
 
@@ -277,27 +279,19 @@ const AboutPage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1.2 }}
         >
-          <ExperienceTitle theme={theme}>Full Stack Developer  Orchabyte</ExperienceTitle>
-          <ExperienceDate theme={theme}>2023 - 2024</ExperienceDate>
+          <ExperienceTitle theme={theme}>Full Stack Intern  Zidio</ExperienceTitle>
+          <ExperienceDate theme={theme}>May2024 - Aug2024</ExperienceDate>
           <ExperienceDescription theme={theme}>
-          Independently built a full-stack application to streamline review campaigns, allowing users to submit review screenshots and enabling supervisors to verify submissions based on authenticity criteria.  Implemented role-based authentication and routing within the MERN stack to enhance security and user experience. Additionally, developed a versatile monorepo template using React, Node.js, and Prisma to accelerate future development. Optimized the frontend for a web-based tiffin service platform, improving UI responsiveness and load times. To maintain high code quality, I integrated ESLint and Prettier, and managed AWS deployment, utilizing S3 for secure, scalable data storage.
+          Collaborated on the design and development of landing pages, contributing to user-friendly and visually appealing web
+experiences to enhance the organization’s online presence.
+• Independently designed and created websites for personal and business use, demonstrating proficiency in web
+development, design, and problem-solving skills to meet specific needs and objectives
 
 
           </ExperienceDescription>
         </ExperienceCard>
 
-        <ExperienceCard
-          theme={theme}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 1.2 }}
-        >
-          <ExperienceTitle theme={theme}>Google Summer of Code with OpenMRS </ExperienceTitle>
-          <ExperienceDate theme={theme}>May2023 - Aug2023</ExperienceDate>
-          <ExperienceDescription theme={theme}>
-          Improved the overall code quality for the monorepo patient-management system by implementing robust test suites. Using Jest and React Testing Library, I successfully increased the code coverage from 40% to 72%, significantly enhancing the reliability of the application. This effort helped in catching critical issues early and ensured greater stability for future releases.
-          </ExperienceDescription>
-        </ExperienceCard>
+
 
       </Section>
     </AboutContainer>

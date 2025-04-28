@@ -192,8 +192,8 @@ const ProjectsPage = () => {
       description: 'Developed an online document creator (something like google docs) using React-Quill library that can add text, image, list, code snippet etc.',
       image: 'image/Screenshot 2025-04-27 232721.png',
       tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.io', 'Typecript'],
-      github: 'https://github.com/ayush-AI/docs-client',
-      live: 'https://docs-client.vercel.app/document/15cbbada-0cf9-462e-9bf3-8f35242a242a'
+      github: 'https://github.com/divyaxdv/docs.client',
+      live: 'https://docs-client.vercel.app/document/0289095f-74df-4796-a068-cdbccc841db0'
     },
     {
       title: 'GDG Cloud Kolkata Webite',
@@ -204,12 +204,12 @@ const ProjectsPage = () => {
       live: 'https://gdgcloud.kolkata.dev/'
     },
     {
-      title: 'Winter of Code`21',
+      title: 'Face Detection',
       description: 'Created an website for an open source event named Winter of Code which creates awareness about open source opportunities like GSOC.',
-      image: 'image/Screenshot 2025-04-27 233525.png',
-      tech: ['React', 'Github Pages', 'Cloudflare', 'Material-UI'],
-      github: 'https://github.com/winterofcode/2021',
-      live: 'https://winterofcode.com/2021/'
+     
+      tech: ['OpenCV', 'C++'],
+      github: 'https://github.com/divyaxdv/Face-Detection',
+     
     }
   ];
 

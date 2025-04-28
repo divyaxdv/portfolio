@@ -231,12 +231,12 @@ const HomePage = () => {
         </Greeting>
         <Name
           theme={theme}
-          data-text="Ayush"
+          data-text="DIVYA"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-            Ayush
+            DIVYA
         </Name>
         <Title
           theme={theme}
@@ -263,7 +263,7 @@ const HomePage = () => {
         >
           <SocialLink
             theme={theme}
-            href="https://github.com/ayush-ai"
+            href="https://github.com/divyaxdv"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -273,7 +273,7 @@ const HomePage = () => {
           </SocialLink>
           <SocialLink
             theme={theme}
-            href="http://linkedin.com/in/ayush-mishra-62586b190"
+            href="http://linkedin.com/in/divya-rajput-b46663228"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -281,16 +281,7 @@ const HomePage = () => {
           >
             <FaLinkedin />
           </SocialLink>
-          <SocialLink
-            theme={theme}
-            href="https://x.com/supermanaayush?t=g2lN8rQMClsc92C9Yr8fAQ&s=09"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <FaTwitter />
-          </SocialLink>
+         
         </SocialLinks>
         <DecorativeLine
           theme={theme}
