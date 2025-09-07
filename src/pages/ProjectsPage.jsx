@@ -196,12 +196,12 @@ const ProjectsPage = () => {
       live: 'https://docs-client.vercel.app/document/0289095f-74df-4796-a068-cdbccc841db0'
     },
     {
-      title: 'GDG Cloud Kolkata Webite',
-      description: 'Build website for Google Developer Group Cloud Kolkata Community one of the biggest community in the eastern India.',
+      title: 'My Cloud: Personal Cloud Storage',
+      description: 'Built a personal cloud storage application that provides secure file upload/download and automated organization. The frontend is implemented in TypeScript and React, the backend uses Node.js/Express and MongoDB for metadata, and files are stored in AWS S3 with signed URLs and role-based access. An AI classification pipeline (TensorFlow.js) analyzes each upload to infer categories, tags and summaries; processing is done asynchronously via messaging (SQS), enabling “Smart Folders” that surface files by category automatically. The system improves discoverability and reduces manual tagging while keeping data secure.',
       //image: '/project2.jpg',
-      tech: ['React.js', 'typescript', 'Material-UI'],
-      github: 'https://github.com/gdgcloudkol/gdgcloudkol.github.io',
-      live: 'https://gdgcloud.kolkata.dev/'
+      tech: ['React.js', 'typescript', 'aws S3', 'JWT', 'Node.js', 'Express', 'MongoDB', 'TensorFlow.js', 'SQS'],
+      github: 'https://github.com/divyaxdv/mycloud',
+      live: 'https://github.com/divyaxdv/mycloud'
     },
     {
       title: 'Face Detection',

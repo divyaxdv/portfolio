@@ -279,19 +279,45 @@ precisely analyzes sentiments of incoming calls on helpdesk via text and speech 
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1.2 }}
         >
-          <ExperienceTitle theme={theme}>Full Stack Intern  Zidio</ExperienceTitle>
-          <ExperienceDate theme={theme}>May2024 - Aug2024</ExperienceDate>
+          <ExperienceTitle theme={theme}>Decentralized Secure Storage and Data Sharing Model via Blockchain</ExperienceTitle>
+          <ExperienceDate theme={theme}>Nov'24 -Apri'25</ExperienceDate>
           <ExperienceDescription theme={theme}>
-          Collaborated on the design and development of landing pages, contributing to user-friendly and visually appealing web
-experiences to enhance the organization’s online presence.
-• Independently designed and created websites for personal and business use, demonstrating proficiency in web
-development, design, and problem-solving skills to meet specific needs and objectives
-
-
+          Worked on a Decentralized Storage and Data Sharing model using blockchain technology.
+Implemented Role-Based Access Control (RBAC) to enhance security and manage permissions. Access to data was strictly
+role-dependent, preventing unauthorized operations. Blockchain ensured data integrity, transparency, and tamper-proof
+storage. This model supports secure, scalable, and trustless data sharing across users
+ <br />
+            <a
+              href="https://ieeexplore.ieee.org/document/10956279"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: theme === 'dark' ? '#64FFDA' : '#0A0A0A',
+                textDecoration: 'underline',
+                fontWeight: 'bold',
+                fontFamily: 'Space Grotesk, sans-serif'
+              }}
+            >
+              Published IEEE Journal
+            </a>
           </ExperienceDescription>
         </ExperienceCard>
 
-
+<ExperienceCard
+          theme={theme}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 1.2 }}
+        >
+<ExperienceTitle theme={theme}>System Enginner</ExperienceTitle>
+          <ExperienceDate theme={theme}>July 2025 -</ExperienceDate>
+          <ExperienceDescription theme={theme}>
+          Gained hands-on experience in core Java programming by developing and debugging object-oriented applications,
+working with collections, exception handling, and file I/O operations.
+• Exploring full-stack development using the MongoDB, Express.js, React.js, Node.js and gained familiarity with Microsoft
+tools like Azure, Power BI, and Excel for cloud deployment, data visualization, and productivity.
+          </ExperienceDescription>
+</ExperienceCard>
 
       </Section>
     </AboutContainer>
